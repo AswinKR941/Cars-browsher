@@ -2,8 +2,8 @@
 :root {
   --primary: #000000;
   --secondary: #1a1a1a;
-  --accent: #1e90ff;
-  --light: #f8f9fa;
+  --accent: #FFD700;
+  --light: #ffffff;
   --dark: #212529;
   --gray: #6c757d;
   --light-gray: #e9ecef;
@@ -196,7 +196,7 @@ img {
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(30, 144, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
   z-index: -1;
 }
 
@@ -260,7 +260,7 @@ img {
   position: absolute;
   width: 100%;
   height: 80px;
-  background: linear-gradient(135deg, #1e90ff 0%, #000000 100%);
+  background: linear-gradient(135deg, #FFD700 0%, #000000 100%);
   border-radius: 20px 20px 10px 10px;
   top: 35px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -401,7 +401,7 @@ img {
 .price-value {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--accent);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -438,7 +438,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(30, 144, 255, 0.1);
+  background: rgba(255, 215, 0, 0.1);
   border-radius: 50%;
   color: var(--accent);
   font-size: 2rem;
@@ -605,7 +605,7 @@ img {
 .form-group textarea:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.2);
+  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.2);
 }
 
 /* Footer */
